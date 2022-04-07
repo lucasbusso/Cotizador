@@ -44,7 +44,7 @@ const CotizadorProvider = ({children}) => {
         setTimeout(() => {
             setResultado(resultado)
             setCargando(false)
-        }, 2500);
+        }, 2000);
 
     }
 

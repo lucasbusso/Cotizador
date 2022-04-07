@@ -27,7 +27,7 @@ const Formulario = () => {
         <form 
             onSubmit={handleSubmit}
         >
-            <div className="my-5">
+            <div className="my-1">
                 <label 
                     className="block mb-3 font-bold text-gray-400 uppercase">
                         Marca
@@ -92,7 +92,7 @@ const Formulario = () => {
             <input 
             type="submit" 
             className='w-full bg-indigo-500 hover:bg-indigo-600 transition-colors text-white 
-                       cursor-pointer p-3 uppercase font-bold rounded-md shadow-md mt-5'
+                       cursor-pointer p-3 uppercase font-bold rounded-md shadow-md mt-6'
             value="Cotizar"
             />
         </form>
